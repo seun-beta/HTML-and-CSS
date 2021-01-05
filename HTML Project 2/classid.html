@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gettin' Classy</title>
+    <style type="text/css">
+
+        #first{ font-family: monospace;
+
+        }
+        .loud{
+            text-transform: uppercase;
+
+        }
+        .colred{
+            color: red
+        }
+        .colgreen{
+            color: green
+        }
+        #funnyfont{
+            font-family: arial;
+        }
+        .spacing{
+            margin-left: 20px;
+        }
+        #back {
+            background-color: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Selecting and Styling Tags</h1>
+<p id="funnyfont first ">
+    To avoid putting too much into the <strong>style</strong> attribute, we can use the <strong>class</strong> and <strong>id</strong> attributes to style a subset of the tags.
+</p>
+<p class="spacing">
+    An <strong>id</strong> tag must be unique through the document while the <strong>class</strong> tag can be used on many tags throughout the document.
+</p>
+<p class="colgreen">
+    We can use the <strong>class </strong><span class="loud">all</span> throughout the <span  class="loud">entire</span> document.
+</p>
+<p class="colgreen spacing">
+    It is <strong><span class="loud">very cool</span></strong> to use classes. They can be used on any tag.
+</p>
+<p class="loud colred">
+a tag can have more than one class!
+</p>
+<p id="back">
+    You can even use a hierachical selection string to style tags.
+</p>
+<p id="back">
+    In general it is nice to keep your <span class="loud">html</span> as clean and easily understood as possible as in this <a href="navbar.html">⇒ simple navigation bar</a> example.
+</p>
+<p style="position: fixed; right: 10px;bottom:10px">
+    Go back to the <a href="index.htm">Starting Page</a>.
+</p>
+</body>
+</html>
